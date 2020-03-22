@@ -1,6 +1,6 @@
 # Social Cafe
 
-> An online social space to have conversations around prompts.
+> An online social space to have video conversations around prompts.
 
 ## Adding your own event
 
