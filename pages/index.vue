@@ -2,7 +2,7 @@
   <div class="container">
     <div class="inner">
       <h1>☕ Social Cafe ☕</h1>
-      <input v-model="code" type="text" placeholder="Event Code">
+      <input v-model="code" type="text" placeholder="Event Code" @keyup.enter="goToRoom">
       <button @click="goToRoom">
         Go to room
       </button>

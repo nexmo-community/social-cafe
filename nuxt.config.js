@@ -26,8 +26,7 @@ export default {
     '@nuxtjs/dotenv'
   ],
   env: {
-    embedId: process.env.EMBED_ID,
-    foo: 'bar'
+    EMBED_ID: process.env.EMBED_ID
   },
   build: {
     extend (config, ctx) {
