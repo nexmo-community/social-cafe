@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     goToEvent () {
-      if (this.$store.state.events.find(e => e.slug === this.code)) {
+      if (this.$store.state.events.find(e => e.slug === this.code.trim().toLowerCase())) {
         this.$router.push(`/${this.code}`)
       } else {
         alert('No event with that code')
