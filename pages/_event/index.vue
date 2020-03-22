@@ -8,7 +8,7 @@
       <div class="tables">
         <n-link v-for="(room, i) in event.rooms" :key="room.slug" class="table" :to="`/${$route.params.event}/${room.slug}`">
           <h3>Table {{ i + 1 }}</h3>
-          <small>Question prompt</small>
+          <small>Conversation prompt</small>
           <p>{{ room.name }}</p>
           <span class="button">Go to table</span>
         </n-link>
