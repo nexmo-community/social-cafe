@@ -18,7 +18,7 @@ Go to `/store/index.js` and add an event object to the events array. Submit a PR
 4. Set up any events and rooms you want accessible at `store/index.js`
 5. Verify that the Website URL in your OpenTok proejct settings is the same as your Netlify URL.
 
-You can skip sets 2 and 3 by using this button:
+You can skip steps 2 and 3 by using this button:
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/phazonoverload/social-cafe"><img src="https://www.netlify.com/img/deploy/button.svg" /></a>
 
