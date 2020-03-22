@@ -3,12 +3,12 @@ export const strict = false
 export const state = () => ({
   events: [
     {
-      slug: 'lnug-march',
-      name: 'London Node User Group',
+      slug: 'example-event',
+      name: 'Event Name',
       coc: 'https://hackcodeofconduct.com',
       social: {
-        text: '@LNUGorg',
-        url: 'https://twitter.com/LNUGorg'
+        text: '@_phzn',
+        url: 'https://twitter.com/_phzn'
       },
       rooms: [
         { slug: 'built', name: 'What did you build this week?' },
