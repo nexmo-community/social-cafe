@@ -3,8 +3,8 @@
     <div class="inner">
       <h1>☕ Social Cafe ☕</h1>
       <input v-model="code" type="text" placeholder="Event Code" @keyup.enter="goToRoom">
-      <button @click="goToRoom">
-        Go to room
+      <button @click="goToEvent">
+        Go to event
       </button>
     </div>
   </div>
@@ -18,7 +18,7 @@ export default {
     }
   },
   methods: {
-    goToRoom () {
+    goToEvent () {
       if (this.$store.state.events.find(e => e.slug === this.code)) {
         this.$router.push(`/${this.code}`)
       } else {
