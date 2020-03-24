@@ -27,7 +27,8 @@ export const state = () => ({
       rooms: [
         { slug: 'built', name: 'What did you build this week?' },
         { slug: 'work', name: 'Where do you work?' },
-        { slug: 'hobby', name: 'What are your hobbies?' }
+        { slug: 'hobby', name: 'What are your hobbies?' },
+        { slug: 'jobs', name: 'Job Table' }
       ]
     }
   ]
