@@ -68,10 +68,10 @@ export const state = () => ({
     },
     {
       slug: 'ceilidh',
-      name: 'The Daily Ceilidh Video Chat',
+      name: 'The Daily Ceilidh Chat',
       topBarLink: {
         text: 'thedailyceilidh',
-        url: 'https://thedailyceilidh.co.uk'
+        url: 'http://thedailyceilidh.co.uk'
       },
       roomSelector: false,
       eventText: {
@@ -91,7 +91,7 @@ export const state = () => ({
       name: 'Bernera Coordinators',
       topBarLink: {
         text: 'thedailyceilidh',
-        url: 'https://thedailyceilidh.co.uk'
+        url: 'http://thedailyceilidh.co.uk'
       },
       roomSelector: false,
       eventText: {
@@ -108,7 +108,7 @@ export const state = () => ({
       name: 'Ceilidh Kids',
       topBarLink: {
         text: 'thedailyceilidh',
-        url: 'https://thedailyceilidh.co.uk'
+        url: 'http://thedailyceilidh.co.uk'
       },
       roomSelector: false,
       eventText: {
