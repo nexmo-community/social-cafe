@@ -53,9 +53,9 @@ export const state = () => ({
       },
       roomSelector: true,
       eventText: {
-        primary: 'Please use this space to chat to other event attendees.',
-        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
-        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
+        primary: 'Please join a table during the exercises.',
+        secondary: "You'll be able to talk to each other in small groups to support each other.",
+        tertiary: 'NB. Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
         { slug: 'table-1', name: 'Welcome.' },
@@ -63,11 +63,7 @@ export const state = () => ({
         { slug: 'table-3', name: 'Welcome.' },
         { slug: 'table-4', name: 'Welcome.' },
         { slug: 'table-5', name: 'Welcome.' },
-        { slug: 'table-6', name: 'Welcome.' },
-        { slug: 'table-7', name: 'Welcome.' },
-        { slug: 'table-8', name: 'Welcome.' },
-        { slug: 'table-9', name: 'Welcome.' },
-        { slug: 'table-10', name: 'Welcome.' }
+        { slug: 'table-6', name: 'Welcome.' }
       ]
     },
     {
