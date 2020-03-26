@@ -30,6 +30,27 @@ export const state = () => ({
         { slug: 'hobby', name: 'What are your hobbies?' },
         { slug: 'jobs', name: 'Job Table' }
       ]
+    },
+    {
+      slug: 'nsa-python',
+      name: 'NSA Python study group',
+      coc: 'https://www.policecoders.org/home/nsa-python-study-group/conduct',
+      social: {
+        text: '@policerewired',
+        url: 'https://twitter.com/policerewired'
+      },
+      rooms: [
+        { slug: 'table-0', name: 'Please join your assigned table.' },
+        { slug: 'table-1', name: 'Please join your assigned table.' },
+        { slug: 'table-2', name: 'Please join your assigned table.' },
+        { slug: 'table-3', name: 'Please join your assigned table.' },
+        { slug: 'table-4', name: 'Please join your assigned table.' },
+        { slug: 'table-5', name: 'Please join your assigned table.' },
+        { slug: 'table-6', name: 'Please join your assigned table.' },
+        { slug: 'table-7', name: 'Please join your assigned table.' },
+        { slug: 'table-8', name: 'Please join your assigned table.' },
+        { slug: 'table-9', name: 'Please join your assigned table.' }
+      ]
     }
   ]
 })
