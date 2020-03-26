@@ -5,8 +5,14 @@ export const state = () => ({
     {
       slug: 'example-event',
       name: 'Event Name',
-      coc: 'https://hackcodeofconduct.com',
-      social: {
+      coc: 'https://hackcodeofconduct.com', // optional, not appropriate in all settings
+      roomSelector: true, // shows the pick a room tool
+      eventText: {
+        primary: 'Please use this space to chat to other event attendees.',
+        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
+        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
+      },
+      topBarLink: {
         text: '@_phzn',
         url: 'https://twitter.com/_phzn'
       },
@@ -18,11 +24,17 @@ export const state = () => ({
     },
     {
       slug: 'lnug',
-      name: 'London Node User Group March',
+      name: 'London Node User Group',
       coc: 'https://lnug.org/code-of-conduct.html',
-      social: {
+      roomSelector: false,
+      topBarLink: {
         text: '@LNUGorg',
         url: 'https://twitter.com/lnugorg'
+      },
+      eventText: {
+        primary: 'Please use this space to chat to other event attendees.',
+        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
+        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
         { slug: 'built', name: 'What did you build this week?' },
@@ -35,9 +47,15 @@ export const state = () => ({
       slug: 'nsa-python',
       name: 'NSA Python study group',
       coc: 'https://www.policecoders.org/home/nsa-python-study-group/conduct',
-      social: {
+      topBarLink: {
         text: '@policerewired',
         url: 'https://twitter.com/policerewired'
+      },
+      roomSelector: true,
+      eventText: {
+        primary: 'Please use this space to chat to other event attendees.',
+        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
+        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
         { slug: 'table-1', name: 'Welcome.' },
@@ -55,25 +73,35 @@ export const state = () => ({
     {
       slug: 'ceilidh',
       name: 'The Daily Ceilidh Video Chat',
-      coc: '#',
-      social: {
+      topBarLink: {
         text: 'thedailyceilidh',
         url: 'https://thedailyceilidh.co.uk'
+      },
+      roomSelector: false,
+      eventText: {
+        primary: 'Please use this space to chat to other islanders.',
+        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
+        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
         { slug: 'Knitter-Natter', name: 'Talking all things Crafy' },
         { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
-        { slug: 'Coffee - Cake', name: '11ses anyone?' },
+        { slug: 'Coffee - Cake', name: '11\'ses anyone?' },
         { slug: 'Bernera Book Club', name: 'Open to everyone' }
       ]
     },
     {
       slug: 'bernera-coordinators',
       name: 'Bernera Coordinators',
-      coc: '#',
-      social: {
+      topBarLink: {
         text: 'thedailyceilidh',
         url: 'https://thedailyceilidh.co.uk'
+      },
+      roomSelector: false,
+      eventText: {
+        primary: 'Please use this space to chat to other islanders.',
+        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
+        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
         { slug: 'Chat', name: 'General Chat' }
@@ -82,10 +110,15 @@ export const state = () => ({
     {
       slug: 'clann',
       name: 'Ceilidh Kids',
-      coc: '#',
-      social: {
+      topBarLink: {
         text: 'thedailyceilidh',
         url: 'https://thedailyceilidh.co.uk'
+      },
+      roomSelector: false,
+      eventText: {
+        primary: 'Please use this space to chat to other islanders.',
+        secondary: 'The table prompts are suggestions, but feel free to talk about anything.',
+        tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
         { slug: 'Chat', name: 'General Chat' }

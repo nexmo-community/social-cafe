@@ -2,9 +2,12 @@
   <div>
     <Top :event="event" />
     <div class="wrapper">
-      <h1>Please use this space to chat to other event attendees.</h1>
-      <h2>The table prompts are suggestions, but feel free to talk about anything.</h2>
-      <p>Once 50 people join a room, all attendees will drop to audio-only automatically. If you have technical difficulties please email <a href="mailto:kvn@lws.io">Kevin</a> so he can take a look at resolving them post-event.</p>
+      <h1>{{ event.eventText.primary }}</h1>
+      <h2>{{ event.eventText.secondary }}</h2>
+      <p>{{ event.eventText.tertiary }}</p>
+      <div v-if="event.roomSelector" class="room-picker">
+        <p>You have been randomly assigned table {{ roomPicked }}</p>
+      </div>
       <div class="tables">
         <n-link v-for="(room, i) in event.rooms" :key="room.slug" class="table" :to="`/${$route.params.event}/${room.slug}`">
           <h3>Table {{ i + 1 }}</h3>
@@ -29,6 +32,9 @@ export default {
   computed: {
     event () {
       return this.$store.state.events.find(e => e.slug === this.$route.params.event)
+    },
+    roomPicked () {
+      return Math.floor(Math.random() * this.event.rooms.length) + 1
     }
   }
 }
@@ -40,10 +46,16 @@ export default {
   }
   .wrapper > p {
     width: 75%;
-    margin: 1em auto;
+    margin: 0.5em auto 1em;
   }
-  .wrapper > p a {
-    color: #89cff0;
+  .room-picker {
+    max-width: 960px;
+    background: #c9eeff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px;
+    margin-top: 2em;
   }
   .tables {
     columns: 2;
@@ -67,14 +79,14 @@ export default {
     margin-top: 1em;
   }
   .button {
-    border: 1px solid #89cff0;
+    border: 1px solid #c9eeff;
     color: black;
     padding: 0.75em 1.5em;
     display: inline-block;
     margin-top: 1.25rem;
     font-size: 0.8em;
     border-radius: 7.5px;
-    box-shadow: 0.125rem 0.125rem 0 0 #89cff0;
+    box-shadow: 0.125rem 0.125rem 0 0 #c9eeff;
   }
   @media screen and (max-width: 720px) {
     .wrapper {

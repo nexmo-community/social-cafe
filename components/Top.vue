@@ -7,8 +7,8 @@
       <span v-if="room">{{ room.name }}</span>
     </div>
     <div class="meta">
-      <a :href="event.coc">Code of Conduct</a>
-      <a :href="event.social.url">{{ event.social.text }}</a>
+      <a v-if="event.coc" :href="event.coc">Code of Conduct</a>
+      <a :href="event.topBarLink.url">{{ event.topBarLink.text }}</a>
     </div>
   </header>
 </template>
