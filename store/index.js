@@ -84,7 +84,7 @@ export const state = () => ({
         tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       rooms: [
-        { slug: 'Knitter-Natter', name: 'Talking all things Crafy' },
+        { slug: 'Knitter-Natter', name: 'Talking all things crafty' },
         { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
         { slug: 'Coffee - Cake', name: '11\'ses anyone?' },
         { slug: 'Bernera Book Club', name: 'Open to everyone' }
