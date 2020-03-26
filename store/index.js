@@ -51,6 +51,45 @@ export const state = () => ({
         { slug: 'table-9', name: 'Welcome.' },
         { slug: 'table-10', name: 'Welcome.' }
       ]
+    },
+    {
+      slug: 'ceilidh',
+      name: 'The Daily Ceilidh Video Chat',
+      coc: '#',
+      social: {
+        text: 'thedailyceilidh',
+        url: 'https://thedailyceilidh.co.uk'
+      },
+      rooms: [
+        { slug: 'Knitter-Natter', name: 'Talking all things Crafy' },
+        { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
+        { slug: 'Coffee - Cake', name: '11ses anyone?' },
+        { slug: 'Bernera Book Club', name: 'Open to everyone' }
+      ]
+    },
+    {
+      slug: 'bernera-coordinators',
+      name: 'Bernera Coordinators',
+      coc: '#',
+      social: {
+        text: 'thedailyceilidh',
+        url: 'https://thedailyceilidh.co.uk'
+      },
+      rooms: [
+        { slug: 'Chat', name: 'General Chat' }
+      ]
+    },
+    {
+      slug: 'clann',
+      name: 'Ceilidh Kids',
+      coc: '#',
+      social: {
+        text: 'thedailyceilidh',
+        url: 'https://thedailyceilidh.co.uk'
+      },
+      rooms: [
+        { slug: 'Chat', name: 'General Chat' }
+      ]
     }
   ]
 })
