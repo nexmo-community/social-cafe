@@ -31,7 +31,7 @@ export const state = () => ({
         { slug: 'jobs', name: 'Job Table' }
       ]
     },
-      {
+    {
       slug: 'ceilidh',
       name: 'The Daily Ceilidh Video Chat',
       coc: '#',
@@ -43,10 +43,10 @@ export const state = () => ({
         { slug: 'Knitter-Natter', name: 'Talking all things Crafy' },
         { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
         { slug: 'Coffee - Cake', name: '11ses anyone?' },
-        { slug: 'Bernera Book CLub', name: 'Open to everyone' }
+        { slug: 'Bernera Book Club', name: 'Open to everyone' }
       ]
     },
-      {
+    {
       slug: 'bernera-coordinators',
       name: 'Bernera Coordinators',
       coc: '#',
