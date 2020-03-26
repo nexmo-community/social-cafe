@@ -40,16 +40,16 @@ export const state = () => ({
         url: 'https://twitter.com/policerewired'
       },
       rooms: [
-        { slug: 'table-0', name: 'Please join your assigned table.' },
-        { slug: 'table-1', name: 'Please join your assigned table.' },
-        { slug: 'table-2', name: 'Please join your assigned table.' },
-        { slug: 'table-3', name: 'Please join your assigned table.' },
-        { slug: 'table-4', name: 'Please join your assigned table.' },
-        { slug: 'table-5', name: 'Please join your assigned table.' },
-        { slug: 'table-6', name: 'Please join your assigned table.' },
-        { slug: 'table-7', name: 'Please join your assigned table.' },
-        { slug: 'table-8', name: 'Please join your assigned table.' },
-        { slug: 'table-9', name: 'Please join your assigned table.' }
+        { slug: 'table-1', name: 'Welcome.' },
+        { slug: 'table-2', name: 'Welcome.' },
+        { slug: 'table-3', name: 'Welcome.' },
+        { slug: 'table-4', name: 'Welcome.' },
+        { slug: 'table-5', name: 'Welcome.' },
+        { slug: 'table-6', name: 'Welcome.' },
+        { slug: 'table-7', name: 'Welcome.' },
+        { slug: 'table-8', name: 'Welcome.' },
+        { slug: 'table-9', name: 'Welcome.' },
+        { slug: 'table-10', name: 'Welcome.' }
       ]
     }
   ]
