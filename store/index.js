@@ -30,6 +30,45 @@ export const state = () => ({
         { slug: 'hobby', name: 'What are your hobbies?' },
         { slug: 'jobs', name: 'Job Table' }
       ]
+    },
+      {
+      slug: 'ceilidh',
+      name: 'The Daily Ceilidh Video Chat',
+      coc: '#',
+      social: {
+        text: 'thedailyceilidh',
+        url: 'https://thedailyceilidh.co.uk'
+      },
+      rooms: [
+        { slug: 'Knitter-Natter', name: 'Talking all things Crafy' },
+        { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
+        { slug: 'Coffee - Cake', name: '11ses anyone?' },
+        { slug: 'Bernera Book CLub', name: 'Open to everyone' }
+      ]
+    },
+      {
+      slug: 'bernera-coordinators',
+      name: 'Bernera Coordinators',
+      coc: '#',
+      social: {
+        text: 'thedailyceilidh',
+        url: 'https://thedailyceilidh.co.uk'
+      },
+      rooms: [
+        { slug: 'Chat', name: 'General Chat' }
+      ]
+    },
+    {
+      slug: 'clann',
+      name: 'Ceilidh Kids',
+      coc: '#',
+      social: {
+        text: 'thedailyceilidh',
+        url: 'https://thedailyceilidh.co.uk'
+      },
+      rooms: [
+        { slug: 'Chat', name: 'General Chat' }
+      ]
     }
   ]
 })
