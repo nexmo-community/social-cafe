@@ -83,7 +83,7 @@ export const state = () => ({
         { slug: 'Knitter-Natter', name: 'Talking all things crafty' },
         { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
         { slug: 'Coffee - Cake', name: '11\'ses anyone?' },
-        { slug: 'Bernera Book Club', name: 'Open to everyone' }
+        { slug: 'The Book Club', name: 'Open to everyone' }
       ]
     },
     {
