@@ -1,17 +1,29 @@
 <template>
-  <div class="container">
-    <div class="inner">
-      <h1>☕ Social Cafe ☕</h1>
-      <input v-model="code" type="text" placeholder="Event Code" @keyup.enter="goToEvent">
-      <button @click="goToEvent">
-        Go to event
-      </button>
+  <div>
+    <Top />
+    <div class="box">
+      <div class="extrusion" />
+      <div class="container">
+        <h2>Social Cafe</h2>
+        <div class="input-group">
+          <label for="code">Event Code</label>
+          <input id="code" v-model="code" type="text" placeholder="Event Code" @keyup.enter="goToEvent">
+        </div>
+        <button @click="goToEvent">
+          Go to event
+        </button>
+      </div>
     </div>
+    <p>This platform is powered by the Vonage Video API. You can see the code, contribute, and add your own events on <a href="https://github.com/nexmo-community/social-cafe">GitHub</a>.</p>
   </div>
 </template>
 
 <script>
+import Top from '~/components/Top'
 export default {
+  components: {
+    Top
+  },
   data () {
     return {
       code: ''
@@ -30,34 +42,23 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  background: pink;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.box {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-h1 {
-  font-size: 3em;
+p {
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
 }
-input {
-  display: block;
-  width: 100%;
-  font-size: 1em;
-  padding: 0.5em;
-  border: 2px solid white;
-  margin-top: 0.5rem;
+p a {
+  color: inherit;
 }
-input:focus {
-  border-color: #89cff0;
-}
-button {
-  width: 100%;
-  display: block;
-  font-size: 1em;
-  padding: 0.5em;
-  background: white;
-  border: 0;
-  margin-top: 1em;
+@media screen and (max-width: 720px) {
+  .box,
+  p {
+    width: calc(100% - 2em);
+  }
 }
 </style>
