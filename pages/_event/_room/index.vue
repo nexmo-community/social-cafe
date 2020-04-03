@@ -1,7 +1,7 @@
 <template>
   <div id="inner">
     <Top :event="event" :room="room" />
-    <iframe :src="`https://tokbox.com/embed/embed/ot-embed.js?embedId=${embedId}&iframe=true&room=${$route.params.room}`" allow="microphone;camera" />
+    <iframe :src="`https://tokbox.com/embed/embed/ot-embed.js?embedId=${embedId}&iframe=true&room=${$route.params.event}-${$route.params.room}`" allow="microphone;camera" />
   </div>
 </template>
 
