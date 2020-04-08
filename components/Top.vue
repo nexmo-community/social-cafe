@@ -12,9 +12,12 @@
       </div>
     </div>
 
-    <div v-if="event" class="meta">
-      <a v-if="event.coc" :href="event.coc">Code of Conduct</a>
-      <a :href="event.topBarLink.url">{{ event.topBarLink.text }}</a>
+    <div class="meta">
+      <n-link to="/terms">
+        Terms & Conditions
+      </n-link>
+      <a v-if="event && event.coc" :href="event.coc">Code of Conduct</a>
+      <a v-if="event" :href="event.topBarLink.url">{{ event.topBarLink.text }}</a>
     </div>
   </header>
 </template>
@@ -39,6 +42,7 @@ img {
   height: 1.5em;
   margin-right: 1.5em;
   display: block;
+  margin-bottom: 0.5em;
 }
 a {
   color: white;
@@ -74,7 +78,7 @@ a {
     margin-left: 0;
   }
   .event-name {
-    margin: 0.5em 0;
+    margin: 0.25em 0 0.5em 0;
     display: block;
     font-size: 1.25em;
   }
