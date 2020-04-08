@@ -14,7 +14,7 @@
         </button>
       </div>
     </div>
-    <p>This platform is powered by the Vonage Video API. You can see the code, contribute, and add your own events on <a href="https://github.com/nexmo-community/social-cafe">GitHub</a>.</p>
+    <p>This platform is powered by the <a href="https://www.vonage.com/communications-apis/video/">Vonage Video API</a>. You can see the code, contribute, and add your own events on <a href="https://github.com/nexmo-community/social-cafe">GitHub</a>.</p>
   </div>
 </template>
 

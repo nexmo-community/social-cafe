@@ -13,8 +13,8 @@ export const state = () => ({
         tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       topBarLink: {
-        text: '@_phzn',
-        url: 'https://twitter.com/_phzn'
+        text: '@VonageDev',
+        url: 'https://twitter.com/vonagedev'
       },
       rooms: [
         { slug: 'built', name: 'What did you build this week?' },
