@@ -2,7 +2,9 @@
 
 # Social Cafe
 
-> An online social space to have video conversations around prompts.
+An online social space to have video conversations around prompts.
+
+A blog post about how this demo was built can be found on the [Vonage Developer Blog](https://www.nexmo.com/blog/2020/04/08/build-a-video-conversation-platform-for-online-gatherings-with-nuxt-js-dr) 
 
 ![](./docs/screenshot.png)
 
