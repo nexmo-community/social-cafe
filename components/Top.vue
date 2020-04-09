@@ -42,7 +42,6 @@ img {
   height: 1.5em;
   margin-right: 1.5em;
   display: block;
-  margin-bottom: 0.5em;
 }
 a {
   color: white;
@@ -73,6 +72,7 @@ a {
   }
   img {
     margin-right: 0;
+    margin-bottom: 0.5em;
   }
   .path span {
     margin-left: 0;
