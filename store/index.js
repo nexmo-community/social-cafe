@@ -119,6 +119,29 @@ export const state = () => ({
       rooms: [
         { slug: 'Chat', name: 'General Chat' }
       ]
+    },
+    {
+      slug: 'capp',
+      name: 'Op CAPP',
+      coc: 'https://www.policerewired.org/home/conduct',
+      topBarLink: {
+        text: 'Op CAPP',
+        url: 'https://www.policerewired.org/home/projects/mps-op-capp'
+      },
+      roomSelector: false,
+      eventText: {
+        primary: 'Please use this space to chat in your groups.',
+        secondary: 'We have arranged tables in pairs or threes.',
+        tertiary: 'NB. If 50 people join a room, all attendees will drop to audio-only automatically.'
+      },
+      rooms: [
+        { slug: 'andy-james', name: 'Andy:James' },
+        { slug: 'matt-mike', name: 'Matt:Mike' },
+        { slug: 'dan-baz', name: 'Dan:Baz' },
+        { slug: 'dees-mark-amy', name: 'Dees/Mark:Amy' },
+        { slug: 'ryan-james', name: 'Ryan:James' },
+        { slug: 'andy-jessica-jd', name: 'Andy/Jessica:JD' }
+      ]
     }
   ]
 })
