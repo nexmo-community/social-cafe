@@ -50,7 +50,8 @@ export default {
   }
   .room-picker {
     max-width: 960px;
-    background: #c9eeff;
+    background: var(--orange);
+    color: white;
     margin: 0 auto;
     text-align: center;
     padding: 1em;
@@ -67,7 +68,7 @@ export default {
   .table {
     color: inherit;
     text-decoration: none;
-    box-shadow: 0.5rem 0.5rem 0 0 pink;
+    box-shadow: 0.5rem 0.5rem 0 0 var(--magenta);
     border-radius: 20px;
     padding: 2rem;
     display: inline-block;
@@ -79,14 +80,7 @@ export default {
     margin-top: 1em;
   }
   .button {
-    border: 1px solid #c9eeff;
-    color: black;
-    padding: 0.75em 1.5em;
-    display: inline-block;
-    margin-top: 1.25rem;
-    font-size: 0.8em;
-    border-radius: 7.5px;
-    box-shadow: 0.125rem 0.125rem 0 0 #c9eeff;
+    margin-top: 1.25em;
   }
   @media screen and (max-width: 720px) {
     .wrapper {

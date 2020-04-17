@@ -13,8 +13,8 @@ export const state = () => ({
         tertiary: 'Once 50 people join a room, all attendees will drop to audio-only automatically.'
       },
       topBarLink: {
-        text: '@_phzn',
-        url: 'https://twitter.com/_phzn'
+        text: '@VonageDev',
+        url: 'https://twitter.com/vonagedev'
       },
       rooms: [
         { slug: 'built', name: 'What did you build this week?' },
@@ -68,10 +68,10 @@ export const state = () => ({
     },
     {
       slug: 'ceilidh',
-      name: 'The Daily Ceilidh Video Chat',
+      name: 'The Daily Ceilidh Chat',
       topBarLink: {
         text: 'thedailyceilidh',
-        url: 'https://thedailyceilidh.co.uk'
+        url: 'http://thedailyceilidh.co.uk'
       },
       roomSelector: false,
       eventText: {
@@ -83,7 +83,7 @@ export const state = () => ({
         { slug: 'Knitter-Natter', name: 'Talking all things crafty' },
         { slug: 'Office Watercooler Chat', name: 'Missing the office gossip?' },
         { slug: 'Coffee - Cake', name: '11\'ses anyone?' },
-        { slug: 'Bernera Book Club', name: 'Open to everyone' }
+        { slug: 'The Book Club', name: 'Open to everyone' }
       ]
     },
     {
@@ -91,7 +91,7 @@ export const state = () => ({
       name: 'Bernera Coordinators',
       topBarLink: {
         text: 'thedailyceilidh',
-        url: 'https://thedailyceilidh.co.uk'
+        url: 'http://thedailyceilidh.co.uk'
       },
       roomSelector: false,
       eventText: {
@@ -108,7 +108,7 @@ export const state = () => ({
       name: 'Ceilidh Kids',
       topBarLink: {
         text: 'thedailyceilidh',
-        url: 'https://thedailyceilidh.co.uk'
+        url: 'http://thedailyceilidh.co.uk'
       },
       roomSelector: false,
       eventText: {

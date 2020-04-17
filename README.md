@@ -1,12 +1,16 @@
+![Vonage](./docs/vonage.png)
+
 # Social Cafe
 
-> An online social space to have video conversations around prompts.
+An online social space to have video conversations around prompts.
+
+A blog post about how this demo was built can be found on the [Vonage Developer Blog](https://www.nexmo.com/blog/2020/04/08/build-a-video-conversation-platform-for-online-gatherings-with-nuxt-js-dr) 
+
+![](./docs/screenshot.png)
 
 ## Adding your own event
 
-Go to `/store/index.js` and add an event object to the events array. Submit a PR to this repo. 
-
-![](./docs/screenshot.png)
+Refer to the guide in our [contributing guidelines][contributing] on adding events.
 
 ## Deploy your own
 
@@ -38,3 +42,27 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+
+[contributing]: CONTRIBUTING.md "Contributing"
+
+## Code of Conduct
+
+In the interest of fostering an open and welcoming environment, we strive to make participation in our project and our community a harassment-free experience for everyone. Please check out our [Code of Conduct][coc] in full.
+
+## Contributing
+We :heart: contributions from everyone! Check out the [Contributing Guidelines][contributing] for more information.
+
+[![contributions welcome][contribadge]][issues]
+
+## License
+
+This project is subject to the [MIT License][license]
+
+[logo]: vonage_logo.png "Vonage"
+[contribadge]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat "Contributions Welcome"
+
+[coc]: CODE_OF_CONDUCT.md "Code of Conduct"
+[contributing]: CONTRIBUTING.md "Contributing"
+[license]: LICENSE "MIT License"
+
+[issues]: ./../../issues "Issues"
