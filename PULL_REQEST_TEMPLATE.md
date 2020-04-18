@@ -1,8 +1,9 @@
-* **Please check if the PR fulfills these requirements**
+# Please check if the PR fulfills these requirements
+
 - [ ] You've followed the [contributing guidelines][contributing]
 - [ ] You've adheared the [code of conduct][coc]
 
-* **What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
+# What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
 
 - [ ] New Event
 - [ ] Editing Existing Event
@@ -10,6 +11,11 @@
 - [ ] New Feature
 - [ ] Documentation Update
 - [ ] Other
+
+## If adding or editing an event
+
+* **Can you provide some information about your event or community?**
+
 
 ## If bug fixes or new features
 
