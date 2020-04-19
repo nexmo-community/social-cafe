@@ -3,7 +3,7 @@
 - [ ] You've followed the [contributing guidelines][contributing]
 - [ ] You've adheared the [code of conduct][coc]
 
-# What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
+# What kind of change does this PR introduce? (Bug fix, feature, docs update, ...)
 
 - [ ] New Event
 - [ ] Editing Existing Event
