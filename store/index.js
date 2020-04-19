@@ -136,10 +136,9 @@ export const state = () => ({
       },
       rooms: [
         { slug: 'andy-james', name: 'Andy:James' },
-        { slug: 'matt-mike', name: 'Matt:Mike' },
         { slug: 'dan-baz', name: 'Dan:Baz' },
         { slug: 'dees-mark-amy', name: 'Dees/Mark:Amy' },
-        { slug: 'ryan-james', name: 'Ryan:James' },
+        { slug: 'matt-ryan-james', name: 'Matt/Ryan:James' },
         { slug: 'andy-jessica-jd', name: 'Andy/Jessica:JD' }
       ]
     }
