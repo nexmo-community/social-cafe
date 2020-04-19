@@ -1,7 +1,7 @@
 # Please check if the PR fulfills these requirements
 
 - [ ] You've followed the [contributing guidelines][contributing]
-- [ ] You've adheared the [code of conduct][coc]
+- [ ] You've adhered the [code of conduct][coc]
 
 # What kind of change does this PR introduce? (Bug fix, feature, docs update, ...)
 
